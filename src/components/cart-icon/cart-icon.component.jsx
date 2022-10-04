@@ -8,8 +8,6 @@ import {
 
 import { CartContext } from "../../contexts/cart.context";
 
-import "./cart-icon.styled.jsx";
-
 const CartIcon = () => {
   const { isCartOpen, setIsCartOpen } = useContext(CartContext);
 
